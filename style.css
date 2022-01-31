@@ -1,0 +1,44 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px;
+}
+
+.header {
+
+    display: flex;
+    background-color: #405470;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+a {
+
+    display: flex;
+    margin: 0;
+    padding: 0px;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+
+    flex: 1;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 8px;
+}
+
+a {
+
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.left-links {
+
+    display: flex;
+    gap: 12px;
+    padding: 8px;
+}

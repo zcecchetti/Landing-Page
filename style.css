@@ -5,10 +5,11 @@ body {
     margin: 0 250px;
 }
 
-.header {
+.header,
+.intro {
 
     display: flex;
-    background-color: #405470;
+    background-color: #5c7aa3;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,7 +20,7 @@ a {
     margin: 0;
     padding: 0px;
     align-items: center;
-    color: white;
+    color: rgb(239, 240, 232);
 }
 
 h1 {
@@ -41,4 +42,62 @@ a {
     display: flex;
     gap: 12px;
     padding: 8px;
+}
+
+.intro {
+
+    display:flex;
+    padding: 24px 8px;
+    gap: 32px;
+
+}
+
+.introtext {
+
+    display:flex;
+    flex-direction: column;
+}
+
+.intropic {
+
+    height: auto;
+    width: 28em;
+}
+
+h2,
+p,
+button {
+
+    display: flex;
+    padding: 0;
+    margin: 0;
+    color: rgb(239, 240, 232);
+}
+
+h2 {
+
+    font-size: 48px;
+}
+
+button {
+
+    height: 24px;
+    width: 96px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(67, 67, 201);
+    border: 0;
+    border-radius: 8px;
+}
+
+.introdet {
+
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+button:hover {
+
+    background: rgb(44, 44, 131);
 }

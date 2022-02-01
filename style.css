@@ -124,6 +124,7 @@ button:hover {
     background-color: whitesmoke;
     font-size: 14px;
     padding: 48px 72px;
+    gap: 36px;
     justify-content: space-between;
 }
 
@@ -133,8 +134,20 @@ button:hover {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 8px;
     gap: 8px;
     width: 150px;
+}
+
+.thing:hover {
+
+    background-color: #E5E7Eb;
+    border-radius: 8px;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+
 }
 
 .thing p {
@@ -146,8 +159,8 @@ button:hover {
 h3 {
 
     display: flex;
-    text-align: center;
     justify-content: center;
+    color: #1F2937
 }
 
 .joydet {
@@ -161,7 +174,7 @@ h3 {
 
 .quote {
 
-    padding: 96px 72px;
+    padding: 96px 128px;
     background-color: #E5E7Eb;
     display: flex;
     flex-direction: column;
@@ -189,4 +202,57 @@ p.gandalf {
     justify-content: flex-end;
     font-weight: 700;
     font-size: 24px;
+}
+
+.banner {
+
+    display: flex;
+    color: rgb(239, 240, 232);
+    background-color: #3882F6;
+    margin: 0;
+    padding: 0;
+    border-radius: 8px;
+    padding: 36px 48px;
+    gap: 16px;
+}
+
+.anime {
+
+    margin:0;
+    display: flex;
+    background-color: whitesmoke;
+    font-size: 14px;
+    padding: 48px 72px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bait {
+
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.hook button {
+
+    display: flex;
+    height: 48px;
+    width: 128px;
+    border: 2px solid;
+    border-color: rgb(239, 240, 232);;
+}
+
+.footer {
+
+    display: flex;
+    background-color: #1F2937;
+    padding: 30px;
+    justify-content: center;
 }
